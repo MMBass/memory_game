@@ -1,0 +1,67 @@
+.container{
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+    background-image: linear-gradient(315deg, #36096d 15%, #37d5d6 85%);
+    background-repeat: no-repeat;
+}
+.btn{
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+
+    box-shadow: 0 0 5px #eee;
+    border-radius: 5px;
+}
+#table{
+    background-color: rgb(195, 201, 206);
+    height: 200px;
+    width: 200px;
+}
+.squer{
+    background-color: rgb(184, 184, 184);
+    border: 1px solid gray;
+    float: right;
+}
+.squer4by4{
+    width:24%;
+    height: 24%;
+}
+.squer6by6{
+    width: 15%;
+    height: 15%;
+}
+.squer8by8{
+    width: 11%;
+    height: 11%;
+}
+.squer10by10{
+    width:9%;
+    height: 9%;
+}
+.img_div{
+    width:99%;
+    height: 99%;
+}
+img{
+    width:98%;
+    height: 98%;
+}
+.invisible{
+   display: none;
+}
+.visible{
+    display: block;
+ }
+ .antiEvents{
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     background-color: rgba(243, 77, 77, 0.13);
+ }
